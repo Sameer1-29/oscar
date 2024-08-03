@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: larger_runner_label_name
+    runs-on: 64x_runner
     steps:
       - name: powershell
         shell: cmd
